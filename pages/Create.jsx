@@ -23,7 +23,10 @@ const Create = () => {
         axios.post(`https://6648c6c14032b1331bec647f.mockapi.io/api/users`,createData)
         .then(res=>console.log(res.data))
         .catch(err=>console.log(err));
-        navigate("/");
+        navigate("/users");
+        setTimeout(() => {
+            window.location.reload(); // force a full page reload after navigation
+        }, 0);
     }
     return (
         <div>
