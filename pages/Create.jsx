@@ -24,9 +24,6 @@ const Create = () => {
         .then(res=>console.log(res.data))
         .catch(err=>console.log(err));
         navigate("/users");
-        setTimeout(() => {
-            window.location.reload(); // force a full page reload after navigation
-        }, 0);
     }
     return (
         <div>
