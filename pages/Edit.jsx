@@ -31,7 +31,6 @@ const Edit = ({id}) => {
         axios.put(`https://6648c6c14032b1331bec647f.mockapi.io/api/users/${id}`,editData)
         .then(res=>console.log(res.data))
         .catch(err=>console.log(err));
-        navigate("/users");
     }
     return (
         <div>
