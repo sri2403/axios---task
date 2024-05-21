@@ -1,0 +1,17 @@
+/* Nav.css */
+.navbar {
+    background-color: #333;
+    padding: 1.2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
