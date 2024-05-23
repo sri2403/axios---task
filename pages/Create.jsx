@@ -75,8 +75,10 @@ const Create = () => {
                     />
                 </div>
                 <button type="submit" className="submit-button">Create</button>
+                <p>Once you've created the form, click "Back" to proceed.</p>
             </form>
           </div>
+          <div><button onClick={()=>navigate("/users")}>Back</button></div>
         </div>
     );
 };

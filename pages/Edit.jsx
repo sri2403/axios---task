@@ -83,8 +83,10 @@ const Edit = ({id}) => {
                     />
                 </div>
                 <button type="submit" className="submit-button">Update</button>
+                <p>Once you've updated the form, click "Back" to proceed.</p>
             </form>
         </div>
+        <div><button onClick={()=>navigate("/users")}>Back</button></div>
         </div>
     );
 };
