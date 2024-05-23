@@ -86,7 +86,7 @@ const Edit = ({id}) => {
                 <p>Once you've updated the form, click "Back" to proceed.</p>
             </form>
         </div>
-        <div><button onClick={()=>navigate("/users")}>Back</button></div>
+        <div><button onClick={()=>navigate("/users")} className="back-button text-end">Back</button></div>
         </div>
     );
 };
